@@ -1,0 +1,45 @@
+body{
+    font-family:'Courier New', Courier, monospace ;
+}
+
+h1{
+    font-weight: bold; 
+}
+
+header {
+    padding: 200px 0 100px;
+    width: 100%;
+}
+/* This File containe Phase 1 Home Style */
+#about{
+    margin: auto;
+    margin-top: 30px;
+}
+
+header h1{
+    font-weight: bold; 
+    font-size: 100px;
+}
+
+#carou{
+    margin: auto; 
+    margin-top: 30px; 
+/*    height: 400px; */
+    height: 50%;
+/*    width: 600px;*/
+    width: 60%;
+
+}
+
+img{
+    height: inherit;
+    width: inherit;
+}
+
+section {
+/*
+    margin-top: 60px;
+    margin: auto;
+*/
+    margin: 50px;
+}

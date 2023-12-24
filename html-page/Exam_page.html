@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QuestQuiz::EXAM Time</title>
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" type="image/png" href="../img/faviconnn.png" />
+    <!-- offline bootstrap links -->
+    <link href="../Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="../Bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <link href="../Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Online Links -->
+
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-auth.js"></script>
+
+
+
+    <!--  Bootstrap 4  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--    -->
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
+
+    <link rel="stylesheet" href="../css/exam-page.css">
+    <script src="../js/exam-page.js"></script>
+</head>
+
+<body onload="load()">
+    <div id="quiz">
+        <h1 id="quiz-name"></h1>
+        <h1 style="text-align: right;" id="time"></h1>
+        
+
+        <div id="question">
+            
+
+        </div>
+
+
+        <div style="display: none" id="buttons">
+            <button id="submit-button" onclick="finish()">Submit Answers</button>
+            <button id="next-question-button" onclick="next()">Next Question</button>
+            <button id="prev-question-button" onclick="previous()">Previous</button>
+        </div>
+
+    </div>
+
+    <script src="../app.js"></script>
+</body>
+
+</html>
